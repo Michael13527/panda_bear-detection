@@ -37,7 +37,8 @@ You should see a file called resnet18.onnx.
 9. NET=models/panda_bear                                                                                                                                                                
    DATASET=data/panda_bear
 
-11. Run this command to see how it operates on an image from the bear folder.      <<< imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test//Bear/275.jpg Bear.jpg >>>
+11. Run this command to see how it operates on an image from the Bear folder.                                                                                                          
+ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test//Bear/275.jpeg Bear.jpeg
 
 ![image](https://github.com/Michael13527/panda_bear-detection/assets/173301284/33ebc332-c4af-4c8f-8f96-6ce01270e914)
 
