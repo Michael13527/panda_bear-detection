@@ -18,7 +18,7 @@ A classification model that classify pandas and bears using Resnet-18
 
 --From inside the Docker container, change directories so you are in jetson-inference/python/training/classification
 
---Now run your script:        <<< python3 train.py --model-dir=models/panda_bear data/panda_bear. Add --batch-size=NumberOfBatchFiles --workers=NumberOfWorkers --epochs=NumberOfEpochs >>>
+--Now run your script:        <<< python3 train.py --model-dir=models/panda_bear data/panda_bear --batch-size=NumberOfBatchFiles --workers=NumberOfWorkers --epochs=NumberOfEpochs >>>. 
         epochs are how many times the AI run through the entire process, te lower the epoch is, faster the training is, more inaccurate the classification is. 
 
 --While it's running, you can stop it at any time using Ctl+C. You can also restart the training again later using the --resume and --epoch-start flags, so you don't need to wait for training to complete before testing out the model.
@@ -28,8 +28,8 @@ A classification model that classify pandas and bears using Resnet-18
 --Look in the jetson-inference/python/training/classification/models/cat_dog folder to see if there is a new model called resnet18.onnx there. That is your re-trained model!
 
 --Exit the docker container by pressing Ctl + D.
---On your nano, navigate to the jetson-inference/python/training/classification directory.
---Use <<< ls models/cat_dog/ >>> to make sure that the model is on the nano. You should see a file called resnet18.onnx.
+On your nano, navigate to the jetson-inference/python/training/classification directory.
+Use <<< ls models/cat_dog/ >>> to make sure that the model is on the nano. You should see a file called resnet18.onnx.
 
 --<<< NET=models/panda_bear >>>
 --<<< DATASET=data/panda_bear >>>
