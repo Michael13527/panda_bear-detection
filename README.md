@@ -1,10 +1,13 @@
-# panda_bear-detection
+# panda_bear detection
+![image](https://github.com/Michael13527/panda_bear-detection/assets/173301284/740a53d8-bf1b-4784-aa3e-f79df6a0f890)
+![image](https://github.com/Michael13527/panda_bear-detection/assets/173301284/390eda6c-be4f-4c1c-9f7e-ec86205ba871)
+
 
 A classification model that classify pandas and bears using Resnet-18
 
 # Project Name
 
- Add short description of project here > 
+panda_bear detection
 
 ![add image descrition here](direct image link here)
 
