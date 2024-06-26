@@ -14,13 +14,12 @@ A classification model that classify pandas and bears using Resnet-18
 ## Running this project
 --Make sure you have installed Jetson Inference and Docker Image from :   <<< https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md >>>
 
---Once you're still back in the jetson-inference folder, run              <<< ./docker/run.sh to run the docker container. >>>
+--Once you're still back in the jetson-inference folder, run          <<< ./docker/run.sh to run the docker container. >>>
 
 --From inside the Docker container, change directories so you are in jetson-inference/python/training/classification
 
 --Now run your script:        <<< python3 train.py --model-dir=models/panda_bear data/panda_bear. Add --batch-size=NumberOfBatchFiles --workers=NumberOfWorkers --epochs=NumberOfEpochs >>>
-        - batch size is how many images shown to the AI
-        - epochs are how many times the AI run through the entire process 
+        epochs are how many times the AI run through the entire process, te lower the epoch is, faster the training is, more inaccurate the classification is. 
 
 --While it's running, you can stop it at any time using Ctl+C. You can also restart the training again later using the --resume and --epoch-start flags, so you don't need to wait for training to complete before testing out the model.
 
