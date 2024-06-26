@@ -7,6 +7,9 @@ Panda-bear classification
 
 A classification model that classify pandas and bears using Resnet-18
 
+## Algorithm
+this project uses a folder of images of pandas and bears for training and testing, 
+
 ## Running this project
 1. Make sure you have installed Jetson Inference and Docker Image from :                                                                                                  
  https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md
