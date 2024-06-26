@@ -20,8 +20,9 @@ A classification model that classify pandas and bears using Resnet-18
 
 3. From inside the Docker container, change directories so you are in jetson-inference/python/training/classification
 
-4. Now run your script:        <<< python3 train.py --model-dir=models/panda_bear data/panda_bear --batch-size=NumberOfBatchFiles --workers=NumberOfWorkers --epochs=NumberOfEpochs >>>. 
-        epochs are how many times the AI run through the entire process, te lower the epoch is, faster the training is, more inaccurate the classification is. 
+4. Now run your script:                                                                                                                                                                           
+<<< python3 train.py --model-dir=models/panda_bear data/panda_bear --batch-size=NumberOfBatchFiles --workers=NumberOfWorkers --epochs=NumberOfEpochs >>>.                                   
+ epochs are how many times the AI run through the entire process, te lower the epoch is, faster the training is, more inaccurate the classification is. 
 
 5. While it's running, you can stop it at any time using Ctl+C. You can also restart the training again later using the --resume and --epoch-start flags, so you don't need to wait for training to complete before testing out the model.
 
