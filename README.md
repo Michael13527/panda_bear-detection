@@ -42,8 +42,5 @@ You should see a file called resnet18.onnx.
 
 ![image](https://github.com/Michael13527/panda_bear-detection/assets/173301284/33ebc332-c4af-4c8f-8f96-6ce01270e914)
 
-
-
-
-
-[View a video explanation here](video link)
+check out this video
+https://www.youtube.com/watch?v=sN6aT9TpltU&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8&index=5
