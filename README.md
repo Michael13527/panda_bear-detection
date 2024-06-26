@@ -24,7 +24,7 @@ A classification model that classify pandas and bears using Resnet-18
 to complete before testing out the model.
 
 6. Make sure you are in the docker container and in jetson-inference/python/training/classification, Run the onnx export script:                                                           
- python3 onnx_export.py --model-dir=models/panda_bear] 
+ python3 onnx_export.py --model-dir=models/panda_bear
 
 7. Look in the jetson-inference/python/training/classification/models/cat_dog folder to see if there is a new model called resnet18.onnx there. That is your re-trained model!
 
@@ -34,9 +34,8 @@ Use
  ls models/cat_dog/ to make sure that the model is on the nano.
 You should see a file called resnet18.onnx.
 
-10. 
-<<< NET=models/panda_bear >>>                                                                                                                                                                  
-<<< DATASET=data/panda_bear >>>
+9. NET=models/panda_bear                                                                                                                                                                
+   DATASET=data/panda_bear
 
 11. Run this command to see how it operates on an image from the bear folder.      <<< imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test//Bear/275.jpg Bear.jpg >>>
 
