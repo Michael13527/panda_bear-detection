@@ -1,6 +1,6 @@
 # Project Name
 
-panda_bear detection
+Panda-bear classification
 
 ![image](https://github.com/Michael13527/panda_bear-detection/assets/173301284/740a53d8-bf1b-4784-aa3e-f79df6a0f890)
 ![image](https://github.com/Michael13527/panda_bear-detection/assets/173301284/390eda6c-be4f-4c1c-9f7e-ec86205ba871)
