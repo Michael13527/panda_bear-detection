@@ -31,8 +31,9 @@ A classification model that classify pandas and bears using Resnet-18
 On your nano, navigate to the jetson-inference/python/training/classification directory.
 Use <<< ls models/cat_dog/ >>> to make sure that the model is on the nano. You should see a file called resnet18.onnx.
 
---<<< NET=models/panda_bear >>>
---<<< DATASET=data/panda_bear >>>
+
+<<< NET=models/panda_bear >>>                                                                                                                                                                  
+<<< DATASET=data/panda_bear >>>
 
 --Run this command to see how it operates on an image from the bear folder.      <<< imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test//Bear/275.jpg Bear.jpg >>>
 
