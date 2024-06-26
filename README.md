@@ -9,7 +9,7 @@ A classification model that classify pandas and bears using Resnet-18
 
 ## The Algorithm
 
-Add an explanation of the algorithm and how it works. Make sure to include details about how the code works, what it depends on, and any other relevant info. Add images or other descriptions for your project here. 
+???
 
 ## Running this project
 --Make sure you have installed Jetson Inference and Docker Image from : 
