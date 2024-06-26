@@ -12,7 +12,7 @@ A classification model that classify pandas and bears using Resnet-18
 ???
 
 ## Running this project
---Make sure you have installed Jetson Inference and Docker Image from :   <<< https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md >>>
+--Make sure you have installed Jetson Inference and Docker Image from :                                                                                                                           <<< https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md >>>
 
 --Once you're still back in the jetson-inference folder, run          <<< ./docker/run.sh to run the docker container. >>>
 
